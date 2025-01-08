@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding-top: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  border: none;
+  background-color: #fff5c0;
+  min-width: 414px;
+}
+
+.body {
+  padding-top: 60px;
+}
+
+.header {
+  background-color: #cd5600;
+  height: 100px;
+  width: 100%;
+  min-width: 414px;
+  /* max-width: 1200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  transition: all 0.5s ease;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header img {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  position: relative;
+  left: -20px;
+  top: 10px;
+}
+
+.header h1 {
+  color: white;
+  font-family: "League Spartan";
+  font-size: 40px;
+  margin-top: 60px;
+  display: flex;
+  position: relative;
+  right: 260px;
+  left: -190px;
+  transition: all 0.5s ease;
+  /* background-color: red; */
+}
+
+.navbar ul {
+  color: #fffae2;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  position: relative;
+  right: 55px;
+  font-size: 20px;
+  /* background-color: blue; */
+}
+
+.navbar ul li {
+  display: flex;
+  position: relative;
+  /* right: 30px; */
+  justify-items: space-between;
+  padding-left: 60px;
+  font-size: 23px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  /* wa pa nahuman */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff9d9;
+}
+
+.body .tagline img {
+  height: 270px;
+  width: 270px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -95px;
+}
+
+.body .tagline {
+  /* background-color: blue; */
+  width: 590px;
+  position: relative;
+  left: 120px;
+  top: 85px;
+  justify-items: center;
+  padding-bottom: 60px;
+  transition: all 0.5s ease;
+}
+
+.body .tagline h1 {
+  color: #943e00;
+  font-family: "Fredoka";
+  font-size: 50px;
+  /* background-color: red; */
+}
+
+.body .tagline p {
+  font-family: "Fredoka";
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  display: flex;
+  position: relative;
+  top: -30px;
+}
+
+.body .tagline .order {
+  background-color: #cd5600;
+  color: white;
+  font-size: 27px;
+  font-family: "League Spartan";
+  border: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  top: -40px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.login {
+  height: 390px;
+  width: 320px;
+  background-color: #943e00;
+  justify-items: center;
+  position: absolute;
+  right: 120px;
+  top: 195px;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+  /* margin: auto;
+  align-items: center; */
+}
+
+.login img {
+  height: 130px;
+  width: 130px;
+}
+
+.login h2 {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  /* background-color: red; */
+}
+
+.login h3 {
+  color: #fffae2;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  position: relative;
+  top: -10px;
+}
+
+.login .inputgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login .inputgroup .input {
+  background-color: #c46e30;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 15px;
+  width: 200px;
+  color: white;
+  outline: none;
+}
+
+.login .inputgroup .input::placeholder {
+  color: #fff9d9;
+}
+
+.login .inputgroup .input:focus {
+  border-color: #702f00;
+  border-style: solid;
+}
+
+.saveinfo {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.loginbutton {
+  background-color: #cd5600;
+  color: white;
+  width: 90px;
+  font-size: 15px;
+  font-family: "League Spartan";
+  border: none;
+  padding: 10px 15px;
+  border-radius: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 25px;
+  left: 110px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+  body {
+    padding-top: 0;
+  }
+
+  .header {
+    height: auto;
+    flex-direction: column;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  .header img {
+    height: 150px;
+    width: 150px;
+    left: 0;
+    top: 0;
+    margin-top: -20px;
+  }
+
+  .header h1 {
+    font-size: 45px;
+    right: 0;
+    left: 0;
+    margin-top: -40px;
+    text-align: center;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    position: initial;
+    margin-top: -10px;
+
+  }
+
+  .navbar ul li {
+    padding-left: 0;
+    font-size: 20px;
+    left: -15px;
+  }
+
+  .body .tagline {
+    width: auto;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .body .tagline img {
+    height: 300px;
+    width: 300px;
+    margin: 10 auto;
+    padding-top: 30px;
+  }
+
+  .body .tagline h1 {
+    font-size: 36px;
+  }
+
+  .body .tagline p {
+    font-size: 18px;
+    top: 0;
+  }
+
+  .body .tagline .order {
+    font-size: 35px;
+    padding: 20px 20px;
+    top: 0;
+    margin: 10px auto;
+  }
+
+  .login {
+    width: 70%;
+    height: 60%;
+    padding: 5px;
+    right: 0;
+    left: 0;
+    margin: 20px auto;
+    top: 640px;
+  }
+
+  .login h2 {
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+  }
+
+  .login h3 {
+    font-size: 14px;
+    top: 0;
+    text-align: center;
+  }
+
+  .login .inputgroup .input {
+    width: 100%;
+  }
+
+  .saveinfo {
+    font-size: 12px;
+  }
+
+  .loginbutton {
+    position: relative;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    width: auto;
+  }
+}
+

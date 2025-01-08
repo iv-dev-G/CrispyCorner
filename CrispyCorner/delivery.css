@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding-top: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  border: none;
+  background-color: #ffffff;
+}
+
+.page1 {
+  padding-top: 60px;
+  /* overflow: hidden; */
+}
+
+.header {
+  background-color: #cd5600;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+}
+
+.header img {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  position: relative;
+  left: -20px;
+  top: 10px;
+}
+
+.header h1 {
+  color: white;
+  font-family: "League Spartan";
+  font-size: 40px;
+  margin-top: 60px;
+  display: flex;
+  position: relative;
+  right: 260px;
+  left: -180px;
+  /* background-color: red; */
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  color: #fffae2;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  position: relative;
+  right: 55px;
+  font-size: 20px;
+  /* background-color: blue; */
+}
+
+.navbar ul li {
+  display: flex;
+  position: relative;
+  /* right: 30px; */
+  justify-items: space-between;
+  padding-left: 60px;
+  font-size: 23px;
+  /* wa pa nahuman */
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.page1 {
+  background-color: #fff5c0;
+  padding-top: 120px;
+  height: 550px;
+  width: 100%;
+}
+
+.page1 h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Fredoka";
+  color: #943e00;
+  font-size: 45px;
+  font-weight: 650;
+}
+
+.page1 .leftview pre {
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+  padding-right: 60px;
+}
+
+.page1 .leftview {
+  /* background-color: red; */
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.twobuttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+  /* margin-bottom: 40px; */
+}
+
+.twobuttons .calnow-btn,
+.orderonline-btn {
+  background-color: #cd5600;
+  color: white;
+  font-size: 30px;
+  font-family: "League Spartan";
+  border: none;
+  padding: 20px 30px;
+  border-radius: 40px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  top: -40px;
+  cursor: pointer;
+}
+
+.page1 .bike img {
+  height: 500px;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 200px;
+  z-index: 1;
+}
+
+.page1 .road img {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: -600px;
+}
+
+/* -----------page2------------ */
+
+.page2 {
+  background-color: #ffffff;
+  height: 640px;
+  width: 100%;
+}
+
+.page2 h1 {
+  font-family: "Fredoka";
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 45px;
+  color: #943e00;
+  font-weight: 650;
+}
+
+.gnum1str,
+.gnum2ndr {
+  /* background-color: blue; */
+  width: 935px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.snum {
+  background-color: #943e00;
+  color: #fff5c0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snum h3 {
+  font-size: 30px;
+  position: relative;
+  width: fit-content;
+}
+
+.stepbox1r,
+.stepbox2r {
+  display: flex;
+  position: relative;
+  top: -32px;
+  justify-self: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: red; */
+  width: 1100px;
+  height: fit-content;
+  padding: 5px 5px;
+}
+
+.stepbox1r .box,
+.stepbox2r .box {
+  background-color: #fff5c0;
+  width: 210px;
+  height: 205px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.b1 h2 {
+  display: flex;
+  text-align: center;
+  font-size: 23px;
+  line-height: 1.1;
+  margin-top: 40px;
+  /* color: red; */
+}
+
+.b1 .box1-btn {
+  background-color: #cd5600;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 11px;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  top: -6px;
+}
+
+.b2 h2 {
+  display: flex;
+  text-align: center;
+  font-size: 23px;
+  line-height: 1.1;
+  margin-top: 50px;
+}
+
+.b2 .box2-btn {
+  background-color: #cd5600;
+  color: white;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  top: -1px;
+}
+
+.b3 h2 {
+  display: flex;
+  text-align: center;
+  font-size: 23px;
+  line-height: 1.1;
+  margin-top: 40px;
+}
+
+.b3 p {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.b4 h2 {
+  display: flex;
+  text-align: center;
+  font-size: 23px;
+  line-height: 1.1;
+  margin-top: 40px;
+}
+
+.b4 p {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.b5 h2,
+.b6 h2,
+.b7 h2,
+.b8 h2 {
+  text-align: center;
+  font-size: 23px;
+  line-height: 1.1;
+  margin-top: 40px;
+}
+
+.b5 p {
+  text-align: center;
+  margin-top: -10px;
+}
+.b6 p {
+  text-align: center;
+  margin-top: -10px;
+}
+.b7 p {
+  text-align: center;
+  margin-top: -15px;
+}
+.b8 p {
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* ---------- Page 3 ---------- */
+
+.page3 {
+  background-color: #943e00;
+  width: 100%;
+  height: 650px;
+}
+
+.leftside {
+  /* background-color: rgb(3, 0, 139); */
+  width: 500px;
+  height: 550px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftside h1 {
+  font-family: "Fredoka";
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+}
+
+.leftside img {
+  width: 150px;
+  /* background-color: rebeccapurple; */
+}
+
+.leftside .icons {
+  /* background-color: aqua; */
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  gap: -10px;
+  margin-left: 30px;
+  margin-top: -40px;
+}
+
+.leftside h3 {
+  margin-top: -175px;
+  margin-left: 75px;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Fredoka";
+  color: white;
+  line-height: 2;
+}
+
+.email {
+  /* background-color: orange; */
+  width: fit-content;
+  position: relative;
+  top: -210px;
+  left: 120px;
+}
+
+.email h5 {
+  color: white;
+  font-size: 20px;
+}
+
+.rightside {
+  /* background-color: rgb(3, 0, 139); */
+  width: 500px;
+  height: 450px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -600px;
+  top: -600px;
+  align-items: center;
+}
+
+.rightside h2 {
+  color: white;
+  font-family: "Fredoka";
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.suggestionbx {
+  height: 200px;
+  width: 350px;
+  border-radius: 30px;
+  border-color: #fff5c0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.suggestionbx::placeholder {
+  font-family: "Poppins";
+  font-size: 15px;
+  text-align: center;
+}
+
+.rightside .sendbtn {
+  background-color: #fff5c0;
+  color: #943e00;
+  font-size: 25px;
+  font-family: "League Spartan";
+  border: none;
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+.gbutton {
+  display: flex;
+  justify-self: center;
+  gap: 50px;
+  position: relative;
+  top: -550px;
+}
+
+.btn {
+  font-size: 25px;
+  font-family: "League Spartan";
+  font-weight: bold;
+  color: #943e00;
+  background-color: #fff5c0;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
